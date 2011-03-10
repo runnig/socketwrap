@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "socketwrap", "socketwrap.csproj", "{7D74CA6C-7006-47CE-A8E9-B8340D5202EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testserver", "..\testapp\testserver.csproj", "{DF961A3E-E30F-499D-9A60-7965DCB3D236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D74CA6C-7006-47CE-A8E9-B8340D5202EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D74CA6C-7006-47CE-A8E9-B8340D5202EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D74CA6C-7006-47CE-A8E9-B8340D5202EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D74CA6C-7006-47CE-A8E9-B8340D5202EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF961A3E-E30F-499D-9A60-7965DCB3D236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF961A3E-E30F-499D-9A60-7965DCB3D236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF961A3E-E30F-499D-9A60-7965DCB3D236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF961A3E-E30F-499D-9A60-7965DCB3D236}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = socketwrap.csproj
+	EndGlobalSection
+EndGlobal
